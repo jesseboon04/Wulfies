@@ -111,4 +111,40 @@ body {
         margin: 25px;
         border-radius: 25px;
     }
+    .footer{
+        background-color: #51AFC5;
+        margin-top: 100%;
+    }
+    
+    .bovenfooter{
+        margin-left: 5%;
+        
+        
+    }
+    .btn-bovenfooter{
+        margin-right: 19%;
+        margin-top: 5%;
+        
+    }
+    .onderstefooter{
+        margin-left: 17.5%;
+        margin-top: 5%;
+        padding-bottom: 5%;
+       
+    }
+    .btn-onderstefooter{
+       
+    }
+    .btn-webshop{
+        margin-right: 27%;
+    }
+    .btn-kids{
+        margin-right: 20%;
+    }
+    .btnfooter-style{
+        background-color: transparent;
+        border: none;
+        color: white;
+    }
+
 }
