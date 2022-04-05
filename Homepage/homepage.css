@@ -1,14 +1,56 @@
 @media (max-width: 600px) { 
-    .body{
+   /* .body{
         display: flex;
         flex-direction:column ;
+    }*/
+    .infosite{
+        text-align: center; 
+        margin: 3%;
     }
+    .beperking-kop{
+        text-align: center;
+        margin-bottom: 5%;
+        
+    }
+    .titel-beperking{
+        color:#51AFC5    
+    }
+
+    .info-beperking{
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: center;
+
+
+    }
+    .afb-beperkingen{
+        width: 80% ;
+        margin-left: 10%;
+        
+    }
+    .tekst-beperking{
+        
+    }
+    .btn-beperkingen{
+        background-color: #51AFC5;
+        color: white;
+        border: 1px solid grey;
+        border-radius: 12px;
+    }
+
     
 }
 
 
 @media (min-width: 601px) { 
 
+
+    .autisme-info{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        
+
+    }
     
 }
 
