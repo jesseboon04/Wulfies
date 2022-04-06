@@ -26,6 +26,7 @@
     .afb-beperkingen{
         width: 80% ;
         margin-left: 10%;
+        border-radius: 8px;
         
     }
     .tekst-beperking{
@@ -35,7 +36,9 @@
         background-color: #51AFC5;
         color: white;
         border: 1px solid grey;
-        border-radius: 12px;
+        border-radius: 12px; 
+        margin: 1%;
+        padding: 1.5%;
     }
 
     
@@ -43,19 +46,51 @@
 
 
 @media (min-width: 601px) { 
+    .infosite{
+        text-align: center; 
+        margin: 3%;
+    }
 
-
-    .autisme-info{
+    .info-beperking{
         display: grid;
         grid-template-columns: 1fr 1fr;
+        margin-right: 5%;
         
 
     }
-    
+    .afb-beperkingen{
+        width: 80% ;
+        margin-left: 10%;
+        border-radius: 8px;
+        
+    }
+    .titel-beperking{
+        color:#51AFC5;
+        
+    }
+    .beperking-kop{
+        text-align: center;
+        margin-bottom: 3%;
+    }
+    .btn-beperkingen{
+        background-color: #51AFC5;
+        color: white;
+        border: 1px solid grey;
+        border-radius: 12px;
+        margin: 1%;
+        padding: 1.5%;
+    }   
 }
 
 
 @media (min-width: 1001px) { 
+    .tekst-beperking{
+        margin-top: 3%;
+        
 
+    }
+    .font-grote{
+        font-size: 18px;
+    }
     
 }
