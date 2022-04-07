@@ -6,7 +6,7 @@ Wat gaan wij maken? : De Wulfies site gaat over verschillende geestelijke beperk
                 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Ontwikkelomgeving inrichten:
+Ontwikkelomgeving inrichten: <br>
 A: Visual Studio Code 
 B: Door verschillende testen uit te voeren
 C: 
