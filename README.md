@@ -7,10 +7,10 @@ Wat gaan wij maken? : De Wulfies site gaat over verschillende geestelijke beperk
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Ontwikkelomgeving inrichten: <br>
-1. 
+1. <br>
 A: Visual Studio Code <br>
 B: Door verschillende testen uit te voeren<br>
-C: 
+C: <br>
 D: De comments zetten we boven de lijn code zodat er dan gelijk gezien kan worden welke lijn code word bedoeld.<br>
 -------------------------------------------------------------------------------------------------------------------------------------------------------------- <br>
 
