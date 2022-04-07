@@ -12,14 +12,14 @@ A: Visual Studio Code <br>
 B: Door verschillende testen uit te voeren<br>
 C: 
 D: De comments zetten we boven de lijn code zodat er dan gelijk gezien kan worden welke lijn code word bedoeld.<br>
------------------------------------------------------------------------------------------------------------------------------------------------------------------- <br>
+--------------------------------------------------------------------------------------------------------------------------------------------------------------- <br>
 
 2.
 A: De site die is online gezet maar omdat we ermee bezig zijn doen we het na een tijdje weer opnieuw.<br>
 B: We gaan het zetten op Wulfies.<br>
 C: we zetten het op dit moment live met Filezilla en dat doen we om de 2 weken.<br>
 D: Op dit moment geen database maar omdat we volgende periode verder gaan werken aan Wulfies voegen wij dan misschien iets doe wat een database nodig heeft.<br>
------------------------------------------------------------------------------------------------------------------------------------------------------------------- <br>
+--------------------------------------------------------------------------------------------------------------------------------------------------------------- <br>
 3.
 A: Tijdens het online zetten en bezoeken van de website is de CSS niet in werking en daar word op dit moment nog aan gewerkt.<br>
 
