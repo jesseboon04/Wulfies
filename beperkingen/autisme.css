@@ -161,6 +161,131 @@ body {
     text-align: left;
 }
 
+@media (min-width: 1000px) {
+    .navbar {
+        display: flex;
+        position: relative;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+    }
+    .brand-title {
+        font-size: 1.5rem;
+        margin: .5rem;
+    }
+    .navbar-links {
+        margin-right: 45%;
+    }
+    .navbar-links ul {
+        display: flex;
+        margin: 0;
+        padding: 0;
+    }
+    .navbar-links li {
+        list-style: none;
+    }
+    .navbar-links li a {
+        display: block;
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        padding: 1rem;
+    }
+    .navbar-links li a:hover {
+        display: block;
+        text-decoration: none;
+        color: #51AFC5;
+        padding: 1rem;
+        border-bottom: #51AFC5 5px solid;
+    }
+    #dashboard>div {
+        background-color: white;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    h1 {
+        font-size: 50px;
+        text-align: center;
+        font-weight: 309;
+        color: #50AEC3;
+        font-family: Helvetica;
+    }
+    h2 {
+        font-size: 30px;
+        text-align: left;
+        font-weight: 309;
+        color: #50AEC3;
+        font-family: Helvetica;
+    }
+    h3 {
+        font-size: 30px;
+        text-align: left;
+        font-weight: 309;
+        color: #50AEC3;
+        font-family: Helvetica;
+    }
+    h4 {
+        font-size: 30px;
+        text-align: left;
+        font-weight: 309;
+        color: #50AEC3;
+        font-family: Helvetica;
+    }
+    h5 {
+        font-size: 30px;
+        text-align: left;
+        font-weight: 309;
+        color: #50AEC3;
+        font-family: Helvetica;
+    }
+    p {
+        font-size: 20px;
+        text-align: justify;
+        font-weight: 309;
+        color: black;
+        font-family: Helvetica;
+    }
+    .afb-beperkingen {
+        width: 50%;
+        height: 50%;
+        padding: auto;
+    }
+    .andere p {
+        text-align: left;
+    }
+    .omgaan p {
+        text-align: left;
+    }
+    .communicatie {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .andere {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .omgaan {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .sociale-interactie {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
 @media (max-width: 800px) {
     .navbar {
         flex-direction: column;
