@@ -1,10 +1,19 @@
 * {
     box-sizing: border-box;
+
+}
+p{
+    font-size: 25px;
+    padding: 10px;
 }
 
 body {
     margin: 0;
     padding: 0;
+}
+h1{
+    color: #51AFC5;
+    font-size: 40px;
 }
 .logo{
     width: 120;
@@ -152,46 +161,30 @@ ul{
 	background-color: #ffffff;
     padding-top: 0.1rem;
 }
-
-.trui{
-    border: solid #EFC57B 5px;
-    border-radius: 12px;
-    text-align: center;
-    margin: 10px;
-}
-.fottrui{
-    width: 100%;
-    padding: 20px;
-    border-radius: 35px;
-    
-}
-.bestel{
-    background-color: #51AFC5;
-    
-    height: 50px;
-    font-size: 22px;
-    
-    border-radius: 50px;
-    color: white;
-
-}
-.bestel:hover {
-    padding-bottom: 0.3rem;
-    cursor: pointer;
-    color: white;
-    
-    
-}
-.webshop{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}
 .navbar-links{
     margin-right: 0%;
 }
 .navbar{
     display: flex;
     justify-content: space-between;
+
+}
+.adhd{
+    background-color: white;
+    border-radius: 10px;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
+    border: solid #f1c77f 5px;
+
+}
+.headfoto{
+    width: 80%;
+    border-radius: 20px;
+    margin: 20px;
+    height: 240px;
+    filter: drop-shadow(8px 8px 10px #51AFC5);
 
 }
 
@@ -236,96 +229,15 @@ ul{
     .navbar-links.active {
         display: flex;
     }
-    .trui{
-        border: solid #EFC57B 5px;
-        border-radius: 12px;
-        text-align: center;
-        margin: 10px;
-    }
-    .fottrui{
-        width: 100%;
-        padding: 20px;
-        border-radius: 35px;
-        
-    }
-    .bestel{
-        background-color: #51AFC5;
-        
-        height: 50px;
-        font-size: 22px;
-        
-        border-radius: 50px;
-        color: white;
-
-    }
-    .bestel:hover {
-        padding-bottom: 0.3rem;
-        cursor: pointer;
-        color: white;
-        border: #51AFC5;
-        
-    }
-    .webshop{
-        display: grid;
-        grid-template-columns: 1fr;
-    }
-   
+    
     
 }
 
 @media screen and (max-width: 1000px) and (min-width: 600px) {
 
-    body{
-        
-    }
-    .trui{
-        border: solid #EFC57B 5px;
-        border-radius: 12px;
-        text-align: center;
-        margin: 10px;
-    }
-    .fottrui{
-        width: 100%;
-        padding: 20px;
-        border-radius: 35px;
-        
-    }
-    .bestel{
-        background-color: #51AFC5;
-        
-        height: 50px;
-        font-size: 22px;
-        
-        border-radius: 50px;
-        color: white;
-
-    }
-    .bestel:hover {
-        padding-bottom: 0.3rem;
-        cursor: pointer;
-        color: white;
-        border: #51AFC5;
-        
-    }
-    .webshop{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-    .navbar-links{
-        margin-right: 0%;
-    }
-    .navbar{
-        display: flex;
-        justify-content: space-between;
-
-    }
-    footer{
-        
-        
-    }
+    
    
     
 
 
 }
-
