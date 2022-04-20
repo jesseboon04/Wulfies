@@ -14,7 +14,7 @@ body {
 .navbar {
     display: flex;
     position: relative;
-    
+    justify-content: space-between;
     align-items: center;
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
@@ -234,7 +234,7 @@ ul{
     grid-template-columns: 1fr 1fr 1fr;
 }
 .navbar-links{
-    margin-left: 10%;
+    
 }
 .navbar{
     display: flex;
@@ -448,6 +448,7 @@ ul{
     }
     .navbar{
         display: flex;
+        justify-content: space-between;
         
 
     }
@@ -459,7 +460,7 @@ ul{
         
     }
     li {
-        float: left;
+        
       }
       
       li a, .dropbtn {

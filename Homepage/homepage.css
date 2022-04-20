@@ -12,8 +12,16 @@
         margin-bottom: 5%;
         
     }
+    .footer-col{
+      width: 100%;
+  }
     .titel-beperking{
         color:#51AFC5    
+    }
+    .footer-col .social-links a:hover{
+      color: #51AFC5;
+      background-color: #ffffff;
+        padding-top: 0.1rem;
     }
 
     .info-beperking{
@@ -22,6 +30,27 @@
         text-align: center;
 
 
+    }
+    li a:hover, .dropdown:hover .dropbtn {
+      background-color: rgba(126, 126, 126, 0.256);
+    }
+    .footer-col .social-links a{
+      display: inline-block;
+      height: 40px;
+      width: 40px;
+      background-color: rgba(255,255,255,0.2);
+      margin:0 10px 10px 0;
+      text-align: center;
+      line-height: 40px;
+      border-radius: 50%;
+      color: #ffffff;
+      transition: all 0.3s ease;
+        border: 1px solid #51AFC5;
+    }
+    .footer-col ul li a:hover{
+      color: #ffffff;
+      padding-left: 8px;
+        color: #51AFC5;
     }
     .afb-beperkingen{
         width: 80% ;
@@ -41,7 +70,7 @@
         padding: 1.5%;
     }
     li {
-        float: left;
+        
       }
       
       li a, .dropbtn {
@@ -54,6 +83,7 @@
       
       li a:hover, .dropdown:hover .dropbtn {
         background-color: rgba(126, 126, 126, 0.256);
+        border-radius: 10px;
       }
       
       li.dropdown {
@@ -86,6 +116,37 @@
           width: 10px;
           height: auto;
       }
+      .footer {
+        background-color: #24262b;
+        padding: 70px 0;
+        border-radius: 10px;
+        margin-top: 75px;
+      } 
+      .container {
+        max-width: 1170px;
+        margin: auto;
+      }
+      .row {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .footer-col {
+        width: 100%;
+      }
+      .footer-col h4 {
+        font-size: 23px;
+        color: #ffffff;
+        text-transform: capitalize;
+        margin-bottom: 35px;
+        font-weight: 500;
+        position: relative;
+        border: 3px solid #51AFC5;
+        border-radius: 7px;
+        text-align: center;
+      }
+      ul {
+        list-style: none;
+      }
 
     
 }
@@ -96,6 +157,18 @@
         text-align: center; 
         margin: 3%;
     }
+    .footer-col h4 {
+      font-size: 23px;
+      color: #ffffff;
+      text-transform: capitalize;
+      margin-bottom: 35px;
+      font-weight: 500;
+      position: relative;
+      border: 3px solid #51AFC5;
+      border-radius: 7px;
+      text-align: center;
+  }
+    
 
     .info-beperking{
         display: grid;
@@ -104,12 +177,48 @@
         
 
     }
+    ul {
+      list-style: none;
+    }
+    .footer {
+      background-color: #24262b;
+      padding: 70px 0;
+      border-radius: 10px;
+      margin-top: 75px;
+    }
+    .container {
+      max-width: 1170px;
+      margin: auto;
+  }
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .footer-col {
+    width: 25%;
+    padding: 0 15px;
+  }
+
+
     .afb-beperkingen{
         width: 80% ;
         margin-left: 10%;
         border-radius: 8px;
         
     }
+    .footer-col .social-links a {
+      display: inline-block;
+      height: 40px;
+      width: 40px;
+      background-color: rgba(255,255,255,0.2);
+      margin: 0 10px 10px 0;
+      text-align: center;
+      line-height: 40px;
+      border-radius: 50%;
+      color: #ffffff;
+      transition: all 0.3s ease;
+      border: 1px solid #51AFC5;
+  }
     .titel-beperking{
         color:#51AFC5;
         
@@ -127,7 +236,7 @@
         padding: 1.5%;
     }   
     li {
-        float: left;
+        
       }
       
       li a, .dropbtn {
@@ -140,6 +249,7 @@
       
       li a:hover, .dropdown:hover .dropbtn {
         background-color: rgba(126, 126, 126, 0.256);
+        border-radius: 10px;
       }
       
       li.dropdown {
@@ -172,6 +282,23 @@
         width: 10px;
         height: auto;
     }
+    .navbar-links li a:hover {
+      display: block;
+      text-decoration: none;
+      color: #51AFC5;
+      padding: 1rem;
+      border-bottom: #51AFC5 5px solid;
+  }
+  .footer-col .social-links a:hover{
+    color: #51AFC5;
+    background-color: #ffffff;
+      padding-top: 0.1rem;
+  }
+  .footer-col ul li a:hover{
+    color: #ffffff;
+    padding-left: 8px;
+      color: #51AFC5;
+  }
 }
 
 
@@ -181,11 +308,97 @@
         
 
     }
+    .navbar-links li a:hover {
+      display: block;
+      text-decoration: none;
+      color: #51AFC5;
+      padding: 1rem;
+      border-bottom: #51AFC5 5px solid;
+  }
+    .container{
+      max-width: 1170px;
+      margin:auto;
+    }
+    .row{
+      display: flex;
+      flex-wrap: wrap;
+    }
+    ul{
+      list-style: none;
+    }
+    .footer{
+      background-color: #24262b;
+        padding: 70px 0;
+        border-radius: 10px;
+        margin-top: 75px;
+    }
+    .footer-col{
+       width: 25%;
+       padding: 0 15px;
+    }
+    .footer-col h4{
+      font-size: 23px;
+      color: #ffffff;
+      text-transform: capitalize;
+      margin-bottom: 35px;
+      font-weight: 500;
+      position: relative;
+        border: 3px solid #51AFC5;
+        border-radius: 7px;
+        text-align: center;
+    }
+    .footer-col h4::before{
+      content: '';
+      position: absolute;
+      left:0;
+      bottom: -10px;
+      background-color: #51AFC5;
+      height: 2px;
+      box-sizing: border-box;
+      width: 50px;
+    }
+    .footer-col ul li:not(:last-child){
+      margin-bottom: 10px;
+    }
+    .footer-col ul li a{
+      font-size: 20px;
+      text-transform: capitalize;
+      color: #ffffff;
+      text-decoration: none;
+      font-weight: 300;
+      color: #ffffff;
+      display: block;
+      transition: all 0.5;
+    }
+    .footer-col ul li a:hover{
+      color: #ffffff;
+      padding-left: 8px;
+        color: #51AFC5;
+    }
+    .footer-col .social-links a{
+      display: inline-block;
+      height: 40px;
+      width: 40px;
+      background-color: rgba(255,255,255,0.2);
+      margin:0 10px 10px 0;
+      text-align: center;
+      line-height: 40px;
+      border-radius: 50%;
+      color: #ffffff;
+      transition: all 0.3s ease;
+        border: 1px solid #51AFC5;
+    }
+    .footer-col .social-links a:hover{
+      color: #51AFC5;
+      background-color: #ffffff;
+        padding-top: 0.1rem;
+    }
+    
     .font-grote{
         font-size: 18px;
     }
     li {
-        float: left;
+      
       }
       
       li a, .dropbtn {
@@ -198,6 +411,7 @@
       
       li a:hover, .dropdown:hover .dropbtn {
         background-color: rgba(126, 126, 126, 0.256);
+        border-radius: 10px;
       }
       
       li.dropdown {

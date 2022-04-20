@@ -26,7 +26,7 @@ body {
 }
 
 .navbar-links {
-    margin-right: 45%;
+    
 }
 
 .navbar-links ul {
@@ -73,33 +73,6 @@ body {
     background-color: #51AFC5;
     border-radius: 10px;
 }
-.footer{
-    background-color: #51AFC5;
-  
-}
-.bovenfooter{
-    margin-left: 5%;
-    
-    
-    
-}
-.btn-bovenfooter{
-    margin-right: 7%;  
-    margin-top: 3.5%;
-    
-}
-.onderstefooter{
-    margin-left: 50%;
-    margin-top: -1%;
-    padding-bottom: 3%;
-    
-   
-}
-.btn-onderstefooter{
-    
-    
-       
-}
 
 
 
@@ -125,13 +98,8 @@ body {
 
 
 
-.btnfooter-style{
-    background-color: transparent;
-    border: none;
-    color: white;
-    font-size: 16px;
-    
-}
+
+
 
 @media (max-width: 800px) {
     .navbar {
@@ -170,40 +138,6 @@ body {
         margin: 25px;
         border-radius: 25px;
     }
-    .footer{
-        background-color: #51AFC5;
-       
-    }
     
-    .bovenfooter{
-        margin-left: 5%;
-        
-        
-    }
-    .btn-bovenfooter{
-        margin-right: 19%;
-        margin-top: 5%;
-        
-    }
-    .onderstefooter{
-        margin-left: 17.5%;
-        margin-top: 5%;
-        padding-bottom: 5%;
-       
-    }
-    .btn-onderstefooter{
-       
-    }
-    .btn-webshop{
-        margin-right: 27%;
-    }
-    .btn-kids{
-        margin-right: 20%;
-    }
-    .btnfooter-style{
-        background-color: transparent;
-        border: none;
-        color: white;
-    }
 
 }
