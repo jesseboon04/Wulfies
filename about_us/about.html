@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="/about_us/style.css">
     <script src="/header/script.js" defer></script>
     <title>Responsive Navbar</title>
+    <link rel="stylesheet" href="../Homepage/homepage.css">
 </head>
 
 <body>
@@ -19,12 +20,21 @@
         </a>
         <div class="navbar-links">
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Informatie</a></li>
-                <li><a href="#">Kids</a></li>
-                <li><a href="#">Webshop</a></li>
-                <li><a href="#">Over ons</a></li>
-            </ul>
+                <li><a href="../Homepage/home.html">Home</a></li>
+                 <li class="dropdown" >
+                    <a href="#" class="dropbtn">Informatie <img src="/afbeelidingen/arrow.png"  class="afb-dropdown"alt=""></a>
+                    <div class="dropdown-content">
+                      <a href="#">Autisme</a>
+                      <a href="#">ADD</a>
+                      <a href="#">Syndroom van Down</a>
+                      <a href="#">ADHD</a>
+                      <a href="#">Multiple personality disorder</a>
+                    </div>
+                </li>
+                <li>  <a href="../Video&webshop/video.html">Kids</a></li>
+                <li><a href="../Video&webshop/webshop.html">Webshop</a></li>
+                <li><a href="../about_us/about.html">Over ons</a></li>
+              </ul>
         </div>
     </nav>
 

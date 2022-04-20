@@ -1,0 +1,233 @@
+@media (max-width: 600px) { 
+   /* .body{
+        display: flex;
+        flex-direction:column ;
+    }*/
+    .infosite{
+        text-align: center; 
+        margin: 3%;
+    }
+    .beperking-kop{
+        text-align: center;
+        margin-bottom: 5%;
+        
+    }
+    .titel-beperking{
+        color:#51AFC5    
+    }
+
+    .info-beperking{
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: center;
+
+
+    }
+    .afb-beperkingen{
+        width: 80% ;
+        margin-left: 10%;
+        border-radius: 8px;
+        
+    }
+    .tekst-beperking{
+        
+    }
+    .btn-beperkingen{
+        background-color: #51AFC5;
+        color: white;
+        border: 1px solid grey;
+        border-radius: 12px; 
+        margin: 1%;
+        padding: 1.5%;
+    }
+    li {
+        float: left;
+      }
+      
+      li a, .dropbtn {
+        display: inline-block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      li a:hover, .dropdown:hover .dropbtn {
+        background-color: rgba(126, 126, 126, 0.256);
+      }
+      
+      li.dropdown {
+        display: inline-block;
+      }
+      
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+      
+      .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: center;
+      }
+      
+      .dropdown-content a:hover {background-color: #f1f1f1;}
+      
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+      .afb-dropdown{
+          width: 10px;
+          height: auto;
+      }
+
+    
+}
+
+
+@media (min-width: 601px) { 
+    .infosite{
+        text-align: center; 
+        margin: 3%;
+    }
+
+    .info-beperking{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-right: 5%;
+        
+
+    }
+    .afb-beperkingen{
+        width: 80% ;
+        margin-left: 10%;
+        border-radius: 8px;
+        
+    }
+    .titel-beperking{
+        color:#51AFC5;
+        
+    }
+    .beperking-kop{
+        text-align: center;
+        margin-bottom: 3%;
+    }
+    .btn-beperkingen{
+        background-color: #51AFC5;
+        color: white;
+        border: 1px solid grey;
+        border-radius: 12px;
+        margin: 1%;
+        padding: 1.5%;
+    }   
+    li {
+        float: left;
+      }
+      
+      li a, .dropbtn {
+        display: inline-block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      li a:hover, .dropdown:hover .dropbtn {
+        background-color: rgba(126, 126, 126, 0.256);
+      }
+      
+      li.dropdown {
+        display: inline-block;
+      }
+      
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+      
+      .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: center;
+      }
+      
+      .dropdown-content a:hover {background-color: #f1f1f1;}
+      
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+      .afb-dropdown{
+        width: 10px;
+        height: auto;
+    }
+}
+
+
+@media (min-width: 1001px) { 
+    .tekst-beperking{
+        margin-top: 3%;
+        
+
+    }
+    .font-grote{
+        font-size: 18px;
+    }
+    li {
+        float: left;
+      }
+      
+      li a, .dropbtn {
+        display: inline-block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      li a:hover, .dropdown:hover .dropbtn {
+        background-color: rgba(126, 126, 126, 0.256);
+      }
+      
+      li.dropdown {
+        display: inline-block;
+      }
+      
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+      
+      .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: center;
+      }
+      
+      .dropdown-content a:hover {background-color: #f1f1f1;}
+      
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+      .afb-dropdown{
+        width: 10px;
+        height: auto;
+    }
+}
