@@ -42,7 +42,7 @@ body {
 .navbar {
     display: flex;
     position: relative;
-    justify-content: space-between;
+    
     align-items: center;
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
@@ -54,7 +54,7 @@ body {
 }
 
 .navbar-links {
-    
+    margin-left: 10%;
 }
 
 .navbar-links ul {
