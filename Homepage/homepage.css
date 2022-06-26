@@ -15,22 +15,14 @@
     .footer-col{
       width: 100%;
   }
-    .titel-beperking{
-        color:#51AFC5    
-    }
+  
     .footer-col .social-links a:hover{
       color: #51AFC5;
       background-color: #ffffff;
         padding-top: 0.1rem;
     }
 
-    .info-beperking{
-        display: grid;
-        grid-template-columns: 1fr;
-        text-align: center;
-
-
-    }
+    
     li a:hover, .dropdown:hover .dropbtn {
       background-color: rgba(126, 126, 126, 0.256);
     }
@@ -45,33 +37,14 @@
       border-radius: 50%;
       color: #ffffff;
       transition: all 0.3s ease;
-        border: 1px solid #51AFC5;
+        
     }
     .footer-col ul li a:hover{
       color: #ffffff;
       padding-left: 8px;
         color: #51AFC5;
     }
-    .afb-beperkingen{
-        width: 80% ;
-        margin-left: 10%;
-        border-radius: 8px;
-        
-    }
-    .tekst-beperking{
-        
-    }
-    .btn-beperkingen{
-        background-color: #51AFC5;
-        color: white;
-        border: 1px solid grey;
-        border-radius: 12px; 
-        margin: 1%;
-        padding: 1.5%;
-    }
-    li {
-        
-      }
+  
       
       li a, .dropbtn {
         display: inline-block;
@@ -168,15 +141,7 @@
       border-radius: 7px;
       text-align: center;
   }
-    
-
-    .info-beperking{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        margin-right: 5%;
-        
-
-    }
+  
     ul {
       list-style: none;
     }
@@ -200,12 +165,7 @@
   }
 
 
-    .afb-beperkingen{
-        width: 80% ;
-        margin-left: 10%;
-        border-radius: 8px;
-        
-    }
+  
     .footer-col .social-links a {
       display: inline-block;
       height: 40px;
@@ -219,26 +179,7 @@
       transition: all 0.3s ease;
       border: 1px solid #51AFC5;
   }
-    .titel-beperking{
-        color:#51AFC5;
-        
-    }
-    .beperking-kop{
-        text-align: center;
-        margin-bottom: 3%;
-    }
-    .btn-beperkingen{
-        background-color: #51AFC5;
-        color: white;
-        border: 1px solid grey;
-        border-radius: 12px;
-        margin: 1%;
-        padding: 1.5%;
-    }   
-    li {
-        
-      }
-      
+
       li a, .dropbtn {
         display: inline-block;
         color: white;
@@ -287,7 +228,7 @@
       text-decoration: none;
       color: #51AFC5;
       padding: 1rem;
-      border-bottom: #51AFC5 5px solid;
+      
   }
   .footer-col .social-links a:hover{
     color: #51AFC5;
@@ -305,15 +246,48 @@
 @media (min-width: 1001px) { 
     .tekst-beperking{
         margin-top: 3%;
+        text-align: center;
         
 
+    }
+    .eerstekop{
+      background-color: white;
+      width: 450px;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+    }
+    .helesec{
+      display: grid;
+      grid-template-columns: 0.1fr 0.1fr;
+      justify-content: center;
+      grid-gap: 90px;
+      padding: 70px;
+    }
+    .begin{
+      height: 100vh;
+      background-image: url(../afbeelidingen/bewustzijn.jpg);
+      background-blend-mode: darken;
+      background-position: center;
+      background-size: cover;
+      background-color: rgba(0, 0, 0, 0.765);
+      position: relative;
+      display: flex;
+      place-content: center;
+      place-items: center;
+
+    }
+    .infobegin{
+      background-color: rgba(255, 255, 255, 0.703);
+      text-align: center;
+      justify-content: center;
+      display: flex;
     }
     .navbar-links li a:hover {
       display: block;
       text-decoration: none;
       color: #51AFC5;
-      padding: 1rem;
-      border-bottom: #51AFC5 5px solid;
+      
+      
   }
     .container{
       max-width: 1170px;
@@ -391,15 +365,13 @@
     .footer-col .social-links a:hover{
       color: #51AFC5;
       background-color: #ffffff;
-        padding-top: 0.1rem;
+        
     }
     
     .font-grote{
         font-size: 18px;
     }
-    li {
-      
-      }
+    
       
       li a, .dropbtn {
         display: inline-block;
